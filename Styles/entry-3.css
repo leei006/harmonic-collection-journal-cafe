@@ -1,0 +1,53 @@
+img{
+    width: 100px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+.t{
+    width: 250px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 10px;
+}
+
+h1{
+    font-size: 80px;
+    font-family: "lynda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(17, 16, 16);
+}
+h2{
+    font-size: 40px;
+    font-family: "lynda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(17, 16, 16);
+}
+.LES{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: rgb(130, 57, 25);
+}
+.Address{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: rgb(173, 129, 99);
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-right: 40px;
+    text-align: justify;
+}
+.hr1{
+    border: 2px dotted rgb(102, 31, 31)
+}
+.teabag{
+    width: 100px;
+    margin-left: 100px;
+}
+
+

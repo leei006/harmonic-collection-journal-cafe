@@ -1,0 +1,39 @@
+h1 {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(14, 13, 13);
+    margin-left: 30px;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  p {
+    color: rgb(11, 12, 12);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 30px;
+  }
+ul{
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(233, 200, 38);
+}
+hr{
+  border: 2px solid rgb(138, 159, 123);
+}
+a{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(138, 159, 123);
+}
+.summary{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
