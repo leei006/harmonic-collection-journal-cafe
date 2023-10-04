@@ -1,0 +1,73 @@
+h1{
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(14, 13, 13);
+    margin-left: 30px;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+body{
+    margin: 0;
+}
+.image-grid{
+    --gap: 40px;
+    --num-cols: 3;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+.image-grid > img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+.image-grid-col-2 {
+    grid-column: span 2;
+}
+.image-grid-row {
+    grid-row: span 2;
+}
+@media screen and (max-width: 1024) {
+    .image-grid{
+        --num-cols: 2;
+        --row-height: 200px;
+    }
+}
+a{
+    color: rgb(233, 200, 38);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+hr{
+    margin-top: 30px;
+    border: solid rgb(1, 1, 1);
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/41/9c/bb/419cbb920f9b74fd69182b39642b47f7.jpg);
+  }
+
+.sticker1{
+    width: 50%;
+}
