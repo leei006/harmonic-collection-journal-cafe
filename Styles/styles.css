@@ -1,21 +1,14 @@
-h1 {
-    font-size: 45px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: rgb(14, 13, 13);
-    margin-left: 30px;
-    border: 1px solid black;
-    padding: 20px;
-  }
-  
-  p {
-    color: rgb(11, 12, 12);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-align: right;
-    margin-right: 30px;
-  }
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: rgb(80, 109, 61);
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 ul{
   font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -25,15 +18,46 @@ ul{
 }
 hr{
   border: 2px solid rgb(138, 159, 123);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 a{
   font-family: 'Open Sans', sans-serif;
   color: rgb(138, 159, 123);
 }
-.summary{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    text-align: left;
-    margin-left: 30px;
+body{
+  background-image: url(https://i.pinimg.com/564x/41/9c/bb/419cbb920f9b74fd69182b39642b47f7.jpg);
+}
+.sticker1{
+  width: 20%;
+  position: absolute;
+  top: 90px;
+  right: 220px;
+  rotate: -30deg;
+}
+.sticker2{
+  width: 25%;
+  position: absolute;
+  bottom: 70px;
+  left: 210px;
+}
+.sticker3{
+  width: 20%;
+  position: absolute;
+  bottom: 140px;
+  right: 120px;
+}
+.sticker5{
+  width: 30%;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  rotate: 20deg;
+}
+.sticker6{
+  width: 15%;
+  position: absolute;
+  top: 320px;
+  left: 80px;
+  rotate: 30deg;
 }
