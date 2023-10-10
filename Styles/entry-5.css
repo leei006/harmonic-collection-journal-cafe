@@ -70,3 +70,18 @@ img{
     text-align: center;
     color: rgb(175, 190, 199);
 }
+.CJ6{
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+}
+@media screen and (min-width: 1112px){
+    body{
+        background-color: rgb(225, 241, 242);
+    }
+} 
+@media screen and (max-wdith: 11124px){
+    body{
+        background-color: white;
+    }
+}
