@@ -30,8 +30,10 @@ body{
 }
 
 img {
-  max-width:100%;
+  max-width: 100%;
+  height: auto;
 }
+
 .sticker1{
   width: 20%;
   position: absolute;
