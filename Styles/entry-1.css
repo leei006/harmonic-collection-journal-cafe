@@ -1,3 +1,129 @@
-body{
-    background-color: antiquewhite;
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 40%;
+}
+.homebutton{
+    width: 6%;
+    float: left;
+    margin-top: 0;
+}
+h1{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+h2{
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+#LES{
+    font-family: 'Young Serif', serif;
+    font-size: 70px;
+    float: right;
+    margin-right: 65px;
+    margin-top: 250px;
+    position: relative;
+}
+#sum1{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    top: 93%;
+    left: 52%;
+    word-wrap: break-word;
+    margin: 5px;
+    margin-right: 30px;
+}
+.text{
+    display: none;
+}
+.pic1:hover + .text{
+    display: block;
+}
+.cafepic{
+    width: 30%;
+    display: block;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 40px;
+    z-index: 1;
+}
+#txt-parent{
+    position: relative;
+}
+#txt-child{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    word-wrap: break-word;
+    margin: 5px;
+    width: 150px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    rotate: -15deg;
+}
+.text2{
+    display: none;
+}
+.pic2:hover + .text2{
+    display: block;
+}
+.cafepic2{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 40px;
+    z-index: 1;
+}
+#txt-parent2{
+    position: relative;
+}
+#txt-child2{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    word-wrap: break-word;
+    margin: 5px;
+    width: 150px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    rotate: 15deg;
+}
+.coffee{
+    width: 20%;
+    position: absolute;
+    float: left;
+    top: 90%;
+    left: 20%;
+}
+.next{
+    width: 15%;
+    float: right;
+    margin-top: 200px;
+    margin-right: 30px;
+}
+#review{
+    font-family: 'Young Serif', serif;
+    font-size: 70px;
+    margin-top: -250px;
+    left: 40px;
+    position: relative;
+}
+#sum2{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    margin-top: -300px;
+    left: 2%;
+    word-wrap: break-word;
+    margin: 5px;
+    width: 600px;
+    margin-left: 30px;
 }

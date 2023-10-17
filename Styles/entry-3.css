@@ -1,56 +1,82 @@
-img{
-    width: 100px;
-    border-radius: 25px;
+.homebutton{
+    width: 6%;
     float: left;
-    margin-right: 10px;
+    margin-top: 0;
 }
-.t{
-    width: 250px;
-    border-radius: 25px;
-    float: right;
-    margin-right: 10px;
+.plantshed{
+    width: 30%;
+    display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 40px;
 }
-
+.PS9{
+    width: 40%;
+    margin-top: 40px;
+    display: block;
+    margin-left: 430px;
+    margin-right: auto;
+}
 h1{
-    font-size: 80px;
-    font-family: "lynda", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(17, 16, 16);
-}
-h2{
-    font-size: 40px;
-    font-family: "lynda", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     text-align: center;
-    color: rgb(17, 16, 16);
-}
-.LES{
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    color: rgb(130, 57, 25);
-}
-.Address{
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
-    color: rgb(173, 129, 99);
+    margin-top: 60px;
+    font-family: 'DM Sans', sans-serif;
 }
 p{
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    margin-right: 40px;
-    text-align: justify;
-}
-.hr1{
-    border: 2px dotted rgb(102, 31, 31)
-}
-.teabag{
-    width: 100px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 23px;
+    text-align: center;
+    word-wrap: break-word;
+    width: 150px;
+    float: left;
     margin-left: 100px;
+    margin-top: 80px;
+    rotate: -10deg;
 }
-body{
-    background-image: url(https://i.pinimg.com/564x/41/9c/bb/419cbb920f9b74fd69182b39642b47f7.jpg);
-  }
-
+.PS4{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#text-p{
+    position: relative;
+}
+#text-c{
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+    word-wrap: break-word;
+    margin: 5px;
+    width: 150px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 23px;
+    rotate: 15deg;
+}
+.PS8{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#text-p2{
+    position: relative;
+}
+#text-c2{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    word-wrap: break-word;
+    margin: 5px;
+    width: 150px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 23px;
+    rotate: -10deg;
+}
+.next{
+    width: 15%;
+    float: right;
+}
 
