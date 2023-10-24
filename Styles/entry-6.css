@@ -1,0 +1,75 @@
+.entry6{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.txt1{
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    width: 550px;
+    text-align: center;
+    
+}
+.A4{
+    width: 40%;
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.A1{
+    width: 16%;
+    margin-top: 35px;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    rotate: -25deg;
+    z-index: 1;
+}
+.tape1{
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    rotate: -85deg;
+    z-index: 2;
+}
+.A2{
+    width: 16%;
+    margin-top: 35px;
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    rotate: 25deg;
+    z-index: 1;
+}
+.tape2{
+    width: 10%;
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    rotate: -20deg;
+    z-index: 2;
+}
+.A3{
+    width: 20%;
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video1{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
