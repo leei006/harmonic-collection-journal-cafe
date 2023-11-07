@@ -1,3 +1,8 @@
+img {
+  width: 100%;
+  height:auto;
+}
+
 .index{
   display: block;
     margin-left: 400px;
