@@ -7,7 +7,7 @@ header{
     font-weight: 300;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
   
 .container {
@@ -19,16 +19,17 @@ header{
     background-color: #fff;
   }
   
-.box {
-    background-color: rgb(225, 224, 222);
-    color: #0b0a0a;
-    border-radius: 300px;
-    padding: 6px;
-    font-size: 14px;
-    font-family: 'Pixelify Sans', sans-serif;
-    text-align: center;
-    margin-top: 0px;
-  }
+.button{
+background-color: rgb(225, 224, 222);
+background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=ais);
+border-radius: 100px;
+border-color: white;
+padding: 2px;
+}
+button:hover{
+    transform: scale(1.15);
+}
+  
 img{
     width: 110%;
 }
@@ -37,15 +38,13 @@ p{
     font-size: 20px;
     font-weight: 300;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
 }
 h2{
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 h3{
