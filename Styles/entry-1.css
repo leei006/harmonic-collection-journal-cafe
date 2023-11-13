@@ -1,145 +1,82 @@
-.title{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 40%;
+body{
+    margin: 40px;
 }
-.homebutton{
-    width: 6%;
-    float: left;
-    margin-top: 0;
-}
-h1{
-    font-size: 20px;
+header{
     font-family: 'DM Sans', sans-serif;
-    color: black;
+    font-size: 30px;
+    font-weight: 300;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
-h2{
-    position: relative;
-    font-family: 'DM Sans', sans-serif;
-    color: black;
-    text-align: center;
-}
-#LES{
-    font-family: 'Young Serif', serif;
-    font-size: 70px;
-    float: right;
-    margin-right: 65px;
-    margin-top: 250px;
-    position: relative;
-}
-#sum1{
-    font-size: 20px;
-    font-family: 'DM Sans', sans-serif;
-    position: absolute;
-    top: 93%;
-    left: 52%;
-    word-wrap: break-word;
-    margin: 5px;
-    margin-right: 30px;
+.container{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 80px;
 }
 .text{
-    display: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 80px;
 }
-.pic1:hover + .text{
-    display: block;
-}
-.cafepic{
-    width: 30%;
-    display: block;
-    margin-left: 40px;
-    margin-right: auto;
-    margin-top: 40px;
-    z-index: 1;
-}
-#txt-parent{
-    position: relative;
-}
-#txt-child{
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 30px;
-    rotate: -15deg;
+.texta{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    word-spacing: 80px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .text2{
-    display: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    
 }
-.pic2:hover + .text2{
-    display: block;
-}
-.cafepic2{
+
+
+.imga{
     width: 30%;
+}
+.imgb{
+    width: 80%;
+    rotate: -25deg;
+    margin-top: 60px;
+}
+.imgc{
+    width: 40%;
+}
+.imgd{
+    width: 40%;
+}
+.imge{
     display: block;
     margin-left: auto;
-    margin-right: 40px;
-    margin-top: 40px;
-    z-index: 1;
-}
-#txt-parent2{
-    position: relative;
-}
-#txt-child2{
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 30px;
-    rotate: 15deg;
-}
-.coffee{
+    margin-right: auto;
     width: 20%;
-    position: absolute;
-    float: left;
-    top: 90%;
-    left: 20%;
 }
-.next{
-    width: 15%;
-    float: right;
-    margin-top: 200px;
-    margin-right: 30px;
+.imgf{
+    width: 40%;
 }
-#review{
-    font-family: 'Young Serif', serif;
-    font-size: 70px;
-    margin-top: -250px;
-    left: 40px;
-    position: relative;
+.imgg{
+    width: 40%;
 }
-#sum2{
-    font-size: 20px;
-    font-family: 'DM Sans', sans-serif;
-    position: absolute;
-    margin-top: -300px;
-    left: 2%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 600px;
-    margin-left: 30px;
+.imgh{
+    width: 40%;
 }
-.spoon{
-    width: 4%;
-    position: absolute;
-    float: left;
-    bottom: 30%;
-    right: 10%;
-    rotate: 45deg;
+.imgi{
+    width: 40%;
 }
-.heart{
-    width: 5%;
-    position: absolute;
-    float: left;
-    top: 138%;
-    left: 40%;
-    rotate: 35deg;
+.imgj{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
