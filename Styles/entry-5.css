@@ -1,8 +1,16 @@
-.homebutton{
-    width: 6%;
-    float: left;
-    margin-top: 0;
-}
+.home{
+    width: 25%;
+    
+  }
+.home:hover{
+    transform: scale(1.15);
+  }
+.forward{
+    width: 20%;
+  }
+.forward:hover{
+    transform: scale(1.15);
+  }
 .ten{
     display: block;
     margin-left: 400px;

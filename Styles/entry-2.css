@@ -1,17 +1,23 @@
+
+.home{
+    width: 25%;
+    
+  }
+.home:hover{
+    transform: scale(1.15);
+  }
+.forward{
+    width: 20%;
+  }
+.forward:hover{
+    transform: scale(1.15);
+  }
 h1{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: rgb(5, 58, 114);
     text-align: center;
-}
-a{
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: rgb(175, 190, 199);
-    text-align: left;
-    margin-top: 50px;
 }
 img{
     width: 30%;

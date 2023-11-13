@@ -1,6 +1,18 @@
 body{
     margin: 40px;
 }
+.home{
+    width: 25%;
+  }
+  .home:hover{
+    transform: scale(1.15);
+  }
+  .forward{
+    width: 20%;
+  }
+  .forward:hover{
+    transform: scale(1.15);
+  }
 header{
     font-family: 'DM Sans', sans-serif;
     font-size: 30px;

@@ -1,3 +1,16 @@
+.home{
+    width: 25%;
+    
+  }
+.home:hover{
+    transform: scale(1.15);
+  }
+.forward{
+    width: 20%;
+  }
+.forward:hover{
+    transform: scale(1.15);
+  }
 .entry6{
     display: block;
     width: 50%;
