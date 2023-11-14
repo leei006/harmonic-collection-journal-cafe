@@ -22,11 +22,20 @@ header{
     margin-bottom: 80px;
 }
 .container{
+    margin-top: 40px;
     display: grid;
     place-content: center;
     place-items: center;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 80px;
+    grid-gap: 10px;
+}
+.container2{
+    margin-top: 40px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
 }
 .text{
     font-family: 'DM Sans', sans-serif;
@@ -50,7 +59,31 @@ header{
     font-size: 15px;
     font-weight: 300;
     text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
     
+}
+.text3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.text4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.text5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
 }
 
 
@@ -64,9 +97,13 @@ header{
 }
 .imgc{
     width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imgd{
     width: 40%;
+    margin-left: 100px;
 }
 .imge{
     display: block;
@@ -76,9 +113,13 @@ header{
 }
 .imgf{
     width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imgg{
-    width: 40%;
+    width: 30%;
+    margin-left: 125px;
 }
 .imgh{
     width: 40%;
@@ -91,4 +132,17 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+.imgk{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgl{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
 }
