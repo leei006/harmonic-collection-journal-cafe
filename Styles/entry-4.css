@@ -1,6 +1,8 @@
+body{
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjE4NDktYmFja2dyb3VuZC1ib29tLTAxYi5qcGc.jpg);
+  }
 .home{
-    width: 25%;
-    
+    width: 20%;
   }
 .home:hover{
     transform: scale(1.15);
@@ -12,81 +14,55 @@
     transform: scale(1.15);
   }
 .title{
+    width: 20%;
     display: block;
-    margin-left: 410px;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    width: 40%;
 }
-h1{
-    text-align: center;
-    margin-top: 60px;
-    font-family: 'DM Sans', sans-serif;
+.container{
+    margin-top: 50px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3px;
+}
+.TC1{
+    width: 130%;
+    margin-right: 250px;
+    margin-top: 90px;
+    z-index: 2;
 }
 .TC2{
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-#text-p{
-    position: relative;
-}
-#text-c{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 23px;
+    width: 80%;
     rotate: -10deg;
-}
-.TC4{
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-#text-p2{
-    position: relative;
-}
-#text-c2{
-    position: absolute;
-    bottom: 30%;
-    right: 10%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 23px;
-    rotate: 10deg;
-}
-#text-p3{
-    position: relative;
 }
 .TC3{
-    width: 40%;
+    width: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
 }
-#text-c3{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 23px;
-    rotate: -10deg;
+.TC4{
+    width: 50%;
+    rotate: -20deg;
 }
-.next{
-    width: 15%;
-    float: right;
+.TC5{
+    width: 60%;
+    margin-right: 50px;
+}
+.TC6{
+    width: 60%;
+}
+.TC7{
+    width: 90%;
+    margin-right: 40px;
+    rotate: 10deg;
+}
+h2{
+  margin-top: 100px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
