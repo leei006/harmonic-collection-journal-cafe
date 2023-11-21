@@ -36,6 +36,9 @@ header{
   grid-template-rows: auto;
   grid-gap: 20px;
 }
+.imgs{
+  width: 80%;
+}
 .ps{
   width: 30%;
 }
@@ -60,7 +63,8 @@ header{
   font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
+
 }
 h2{
     margin-top: 50px;
