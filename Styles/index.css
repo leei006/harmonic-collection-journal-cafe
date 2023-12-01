@@ -16,23 +16,25 @@ header{
     place-content: center;
     place-items: center;
     grid-template-columns: repeat(10, 1fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
     background-color: #fff;
   }
   
 .button{
-background-color: rgb(225, 224, 222);
-background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=ais);
-border-radius: 100px;
-border-color: white;
-padding: 2px;
+    background-color: rgb(225, 224, 222);
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=ais);
+    border-radius: 100px;
+    border-color: white;
+    padding: 2px;
+    width: 120px;
 }
 button:hover{
     transform: scale(1.15);
 }
   
 img{
-    width: 110%;
+    width: 80%;
+    height: 60%;
 }
 p{
     font-family: 'DM Sans', sans-serif;
@@ -54,8 +56,9 @@ h3{
     text-align: center;
 }
 #strawberry{
-    width: 78%;
+    width: 50%;
 }
+
 @media (min-width: 500px){
     .container {grid-template-columns: repeat(1, 1fr);
 }
