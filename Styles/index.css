@@ -1,8 +1,10 @@
 body {
     margin: 40px;
+    background-color: white;
   }
 
 header{
+    color: black;
     font-family: 'DM Sans', sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -17,11 +19,11 @@ header{
     place-items: center;
     grid-template-columns: repeat(10, 1fr);
     grid-gap: 20px;
-    background-color: #fff;
+    background-color: white;
   }
   
 .button{
-    background-color: rgb(225, 224, 222);
+    background-color: rgb(251, 240, 217);
     background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=ais);
     border-radius: 100px;
     border-color: white;
@@ -37,6 +39,7 @@ img{
     height: 60%;
 }
 p{
+    color: black;
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -44,6 +47,7 @@ p{
     margin-top: 150px;
 }
 h2{
+    color: black;
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -51,6 +55,7 @@ h2{
     margin-bottom: 100px;
 }
 h3{
+    color: black;
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 30px;
     text-align: center;

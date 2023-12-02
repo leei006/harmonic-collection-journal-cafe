@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(205, 198, 189);
+  }
 .home{
     width: 25%;
     
@@ -10,83 +13,92 @@
   }
 .forward:hover{
     transform: scale(1.15);
-  }
-.ten{
-    display: block;
-    margin-left: 400px;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 40%;
 }
-h1{
-    text-align: center;
-    margin-top: 60px;
+header{
     font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
 }
-.T1{
-    width: 40%;
+.p1{
+    background-color: rgb(230, 226, 226);
+    padding: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.container{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+ }
+ .tengif{
+    margin-top: 50px;
+    width: 50%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+ }
+.TH1{
+    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
 }
-#text-p{
-    position: relative;
+.TH2{
+    width: 50%;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
-#text-c{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 23px;
-    rotate: -10deg;
+.TH3{
+    width: 50%;
+    rotate: -25deg;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
-.T2{
+.TH4{
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.TH5{
     width: 40%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.TH6{
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 80px;
 }
-#text-p2{
-    position: relative;
+.TH7{
+    width: 80%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
-#text-c2{
-    position: absolute;
-    bottom: 30%;
-    right: 10%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 23px;
-    rotate: 10deg;
-}
-#text-p3{
-    position: relative;
-}
-.T3{
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-#text-c3{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    word-wrap: break-word;
-    margin: 5px;
-    width: 150px;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 23px;
-    rotate: -10deg;
-}
-.next{
-    width: 15%;
-    float: right;
-}
+
