@@ -37,6 +37,9 @@ body{
     width: 80%;
     rotate: -10deg;
 }
+.TC2:hover{
+  transform: scale(1.15);
+}
 .TC3{
     width: 55%;
     display: block;
@@ -47,22 +50,37 @@ body{
     width: 50%;
     rotate: -20deg;
 }
+.TC4:hover{
+  transform: scale(1.15);
+}
 .TC5{
     width: 60%;
     margin-right: 50px;
+}
+.TC5:hover{
+  transform: scale(1.15);
 }
 .TC6{
     width: 60%;
     grid-column-start: 2;
     grid-column-end: 3;
 }
+.TC6:hover{
+  transform: scale(1.15);
+}
 .TC7{
     width: 90%;
     margin-right: 40px;
     rotate: 10deg;
 }
+.TC7:hover{
+  transform: scale(1.15);
+}
 .TC8{
     width: 100%;
+}
+.TC8:hover{
+  transform: scale(1.15);
 }
 h2{
   margin-top: 100px;

@@ -47,13 +47,6 @@ img{
     text-align: center;
     animation: colorChange 3s infinite;
   }
-  p{
-    margin: 50px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20;
-    font-weight: 300;
-    text-align: center;
-  }
 .txt1{
   font-family: 'DM Sans', sans-serif;
   font-size: 20;
@@ -130,7 +123,6 @@ video{
   margin-right: auto;
   margin-top: 70px;
 }
-
 
 
 

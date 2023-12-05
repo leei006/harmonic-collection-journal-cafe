@@ -21,7 +21,7 @@ body {
     margin-right: auto;
 }
 .container2{
-    margin-top: 100px;
+    margin-top: 30px;
     display: grid;
     place-content: center;
     place-items: center;
@@ -35,7 +35,7 @@ p{
     font-size: 20px;
     font-weight: 300;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -45,6 +45,53 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
+}
+.hhk{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+@keyframes colorChange {
+    0% {
+      color: rgb(238, 0, 0);
+    }
+    50% {
+      color: rgb(255, 123, 0);
+    }
+    100% {
+      color: rgb(255, 200, 0);
+    }
+  }
+
+  h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    animation: colorChange 5s infinite;
+    background-color: black;
+
+  }
+  h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+  }
+  h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+.croffle{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
