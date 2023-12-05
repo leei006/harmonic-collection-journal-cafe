@@ -47,6 +47,26 @@ button{
     margin-right: auto;
     margin-bottom: 30px;
 }
+.TH2{
+  width: 13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.TH2:hover{
+  transform: scale(1.15);
+}
+.TH4{
+  width: 13%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.TH4:hover{
+  transform: scale(1.15);
+}
 .TH7{
     margin-top: 50px;
     width: 20%;
@@ -114,4 +134,19 @@ button{
     margin-right: auto;
     margin-top: 70px;
   }
-  
+  @media screen and (min-width: 400px){
+    body{
+        background-color: rgb(179, 202, 204);
+    }
+  } 
+  @media screen and (min-width: 600px){
+    body{
+        background-color: rgb(77, 84, 84);
+    }
+  } 
+@media screen and (min-width: 1112px){
+  body{
+      background-color: rgb(198, 207, 207);
+  }
+} 
+

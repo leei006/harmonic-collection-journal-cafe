@@ -130,7 +130,21 @@ video{
   margin-right: auto;
   margin-top: 70px;
 }
-
+@media screen and (min-width: 400px){
+  body{
+      background-color: rgb(242, 211, 165);
+  }
+} 
+@media screen and (min-width: 600px){
+  body{
+      background-color: rgb(222, 183, 200);
+  }
+} 
+@media screen and (min-width: 1112px){
+body{
+    background-color: rgb(239, 167, 84);
+}
+} 
 
 
 
